@@ -5,6 +5,8 @@ simple_search: http://google.com/search
 description: Lecture Notes for Stanford CS224W.
 name: cs224w-notes
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "strikethrough", "superscript"]
 permalink: /articles/:short_year/:title
 timezone: America/Los_Angeles
 excerpt_separator: <!--more-->  # you can specify your own separator, of course.
